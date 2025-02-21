@@ -17,6 +17,7 @@ from sql import add_user, query_msg
 from support import users_info
 from datetime import datetime, timedelta,date
 import csv
+import os
  #add_user= query_msg= users_info=0
 if not os.path.exists('./sessions'):
     os.mkdir('./sessions')
